@@ -1,0 +1,58 @@
+/* Font family for all elements */
+html {
+  font-family: sans-serif;
+}
+
+/* Reset margin for body */
+body {
+  margin: 0;
+}
+
+/* Heading margin */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 25px 0 15px 0;
+}
+
+/* Specific styling for h2 */
+h2 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/* Container wrapper */
+#wrapper {
+  width: 80%;
+  margin: 0 auto; /* Center align the container */
+}
+
+/* Row elements */
+.row {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/* Label title */
+.lbltitle {
+  width: 20%;
+  float: left;
+}
+
+/* Input and output fields */
+.lblinput,
+.lbloutput {
+  width: 80%;
+  float: left;
+}
+
+/* Submit button */
+.submit {
+  padding: 10px 0;
+  text-align: center;
+  width: 50%;
+}
