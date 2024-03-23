@@ -1,0 +1,52 @@
+html {
+  font-family: sans-serif;
+}
+body {
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 25px 0 15px 0;
+}
+h2 {
+  font-size: 17px;
+  font-weight: bold;
+}
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.row {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.header {
+  color: green;
+  text-transform: uppercase;
+}
+.lbltitle {
+  width: 20%;
+  float: left;
+}
+.lblinput,
+.lbloutput {
+  width: 80%;
+  float: left;
+}
+.submit {
+  width: 50%;
+  float: left;
+}
+input,
+textarea {
+  width: 300px;
+}
+
+button {
+  width: 307px;
+}
